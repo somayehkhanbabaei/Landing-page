@@ -1,0 +1,45 @@
+.main-footer {
+    background-color: #333;
+    color: white;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .footer-links {
+    margin-bottom: 20px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 0.9rem;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-payment {
+    margin-bottom: 20px;
+  }
+  
+  .footer-payment img {
+    height: 30px;
+    margin: 0 10px;
+  }
+  
+  .footer-social a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 10px;
+  }
+  
+  .footer-social a:hover {
+    opacity: 0.8;
+  }
+  
+  .footer-copyright {
+    font-size: 0.8rem;
+    color: #ccc;
+  }

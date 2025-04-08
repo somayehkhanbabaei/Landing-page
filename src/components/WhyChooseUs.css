@@ -1,0 +1,42 @@
+.why-choose-us {
+    padding: 60px 40px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .why-choose-us h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .reasons-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+  
+  .reason-item {
+    padding: 30px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+  
+  .reason-item i {
+    font-size: 2.5rem;
+    color: #ff6f61; /* Example icon color */
+    margin-bottom: 15px;
+  }
+  
+  .reason-item h3 {
+    font-size: 1.4rem;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .reason-item p {
+    color: #777;
+    font-size: 1rem;
+  }
