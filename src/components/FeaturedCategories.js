@@ -3,10 +3,10 @@ import './FeaturedCategories.css'; // Create this CSS file
 
 function FeaturedCategories() {
   const categories = [
-    { id: 1, name: 'Building Blocks', image: 'placeholder-blocks.jpg', link: '/blocks' },
-    { id: 2, name: 'Action Figures', image: 'placeholder-figures.jpg', link: '/figures' },
-    { id: 3, name: 'Dolls & Plushies', image: 'placeholder-dolls.jpg', link: '/dolls' },
-    { id: 4, name: 'Educational Toys', image: 'placeholder-educational.jpg', link: '/educational' },
+    { id: 1, name: 'Building Blocks', image: '/assets/img/cate1.jpg', link: '/blocks' },
+    { id: 2, name: 'Action Figures', image: '/assets/img/cate2.jpg', link: '/figures' },
+    { id: 3, name: 'Dolls & Plushies', image: '/assets/img/cate3.jpg', link: '/dolls' },
+    { id: 4, name: 'Educational Toys', image: '/assets/img/cate4.jpg', link: '/educational' },
   ];
 
   return (

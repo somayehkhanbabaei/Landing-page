@@ -19,7 +19,7 @@ function HeroSection() {
       {/* You would typically have an image or video here */}
       <div className="hero-image">
         {/* Replace with your actual image or video component */}
-        <img src="placeholder-hero.jpg" alt="Happy kids playing with toys" />
+        <img src="/assets/img/heroSection.jpg" alt="Happy kids playing with toys" />
       </div>
     </div>
   );
