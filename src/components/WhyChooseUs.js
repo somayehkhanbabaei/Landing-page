@@ -12,7 +12,9 @@ function WhyChooseUs() {
 
   return (
     <div className="why-choose-us">
-      <h2>Why Choose [Your Toy Shop Name]?</h2>
+      <h2>
+        Why Choose Lena Toys? <span role="img" aria-label="heart">💖</span>
+      </h2>
       <div className="reasons-list">
         {reasons.map(reason => (
           <div key={reason.id} className="reason-item">

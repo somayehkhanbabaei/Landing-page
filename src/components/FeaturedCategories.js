@@ -11,7 +11,9 @@ function FeaturedCategories() {
 
   return (
     <div className="featured-categories">
-      <h2>Explore Our Popular Categories</h2>
+      <h2>
+        Explore Our Popular Categories <span role="img" aria-label="star">⭐</span>
+      </h2>
       <div className="category-list">
         {categories.map(category => (
           <div key={category.id} className="category-item">
