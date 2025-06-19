@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css'; // Create this CSS file
+import './Footer.css';
 
 function Footer() {
   return (
@@ -14,19 +14,18 @@ function Footer() {
         <a href="/terms">Terms of Service</a>
       </div>
       <div className="footer-payment">
-        {/* Add your payment method icons here */}
-        <img src="placeholder-visa.png" alt="Visa" />
-        <img src="placeholder-mastercard.png" alt="Mastercard" />
-        {/* ... other payment icons ... */}
+        <span>We accept:</span>
+        <div className="footer-payment-icons">
+          <i className="fab fa-cc-visa"></i>
+          <i className="fab fa-cc-mastercard"></i>
+        </div>
       </div>
       <div className="footer-social">
-        {/* Add your social media icons here */}
         <a href="https://facebook.com"><i className="fab fa-facebook"></i></a>
         <a href="https://instagram.com"><i className="fab fa-instagram"></i></a>
-        {/* ... other social media icons ... */}
       </div>
       <div className="footer-copyright">
-        <p>© 2025 Your Toy Shop Name. All rights reserved.</p>
+        <p>© 2025 Lena Toys. All rights reserved.</p>
       </div>
     </footer>
   );

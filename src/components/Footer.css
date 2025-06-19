@@ -22,10 +22,37 @@
   
   .footer-payment {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-payment span {
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .footer-payment-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
   
   .footer-payment img {
     height: 30px;
+    margin: 0 10px;
+  }
+
+  .footer-payment i.fa-cc-visa {
+    color: #0057b8 !important; /* Brighter blue for Visa */
+    font-size: 2.2rem;
+    margin: 0 10px;
+  }
+
+  .footer-payment i.fa-cc-mastercard {
+    color: #ff5f00 !important; /* Brighter orange for MasterCard */
+    font-size: 2.2rem;
     margin: 0 10px;
   }
   
